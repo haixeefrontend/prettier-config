@@ -1,0 +1,9 @@
+{
+  "name": "@haixeefrontend/prettier-config",
+  "version": "1.0.0",
+  "description": "Haixee frontend common prettier config",
+  "main": ".prettierrc.json",
+  "peerDependencies": {
+    "prettier": ">=1.0.0"
+  }
+}
