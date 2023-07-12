@@ -23,3 +23,7 @@ yarn add -D prettier
   "prettier": "@haixeefrontend/prettier-config"
 }
 ```
+
+## License
+
+This config is licensed under the [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
