@@ -5,9 +5,9 @@ Prettier 通用配置
 ## 安装
 
 ```bash
-yarn add -D @haixeefrontend/prettier-config@git+ssh://git@e.coding.net:haixeefrontend/utils/prettier-config.git
+yarn add -D @haixeefrontend/prettier-config@https://github.com/haixeefrontend/prettier-config/releases/latest/download/prettier-config.tgz
 # 或者使用 HTTPS
-yarn add -D @haixeefrontend/prettier-config@git+https://e.coding.net/haixeefrontend/utils/prettier-config.git
+yarn add -D @haixeefrontend/prettier-config@https://github.com/haixeefrontend/prettier-config/releases/latest/download/prettier-config.tgz
 ```
 
 如果还没有安装 `prettier`，请先安装
