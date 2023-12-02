@@ -6,7 +6,11 @@ Prettier 通用配置
 
 ```bash
 yarn add -D @haixeefrontend/prettier-config@https://github.com/haixeefrontend/prettier-config/releases/latest/download/prettier-config.tgz
-# 或者使用 HTTPS
+```
+
+或者使用 HTTPS
+
+```bash
 yarn add -D @haixeefrontend/prettier-config@https://github.com/haixeefrontend/prettier-config/releases/latest/download/prettier-config.tgz
 ```
 
