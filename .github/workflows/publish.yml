@@ -36,6 +36,12 @@ jobs:
           git tag $PACKAGE_VERSION
           git push origin $PACKAGE_VERSION
 
+      - name: Publish to NPM
+        uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          access: public
+
       - name: Pack Package
         run: |
           yarn pack
@@ -44,7 +50,7 @@ jobs:
         run: |
           mv *.tgz "prettier-config.tgz"
 
-      - name: Publish Package
+      - name: Publish to GitHub Releases
         uses: softprops/action-gh-release@v1
         with:
           files: "prettier-config.tgz"
