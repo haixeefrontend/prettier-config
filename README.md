@@ -1,17 +1,11 @@
-# @haixeefrontend/prettier-config
+# @haixee/prettier-config
 
 Prettier 通用配置
 
 ## 安装
 
 ```bash
-yarn add -D @haixeefrontend/prettier-config@https://github.com/haixeefrontend/prettier-config/releases/latest/download/prettier-config.tgz
-```
-
-或者使用 HTTPS
-
-```bash
-yarn add -D @haixeefrontend/prettier-config@https://github.com/haixeefrontend/prettier-config/releases/latest/download/prettier-config.tgz
+yarn add -D @haixee/prettier-config
 ```
 
 如果还没有安装 `prettier`，请先安装
@@ -24,7 +18,7 @@ yarn add -D prettier
 
 ```json
 {
-  "prettier": "@haixeefrontend/prettier-config"
+  "prettier": "@haixee/prettier-config"
 }
 ```
 
