@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          fetch-depths: 0
+          fetch-depth: 0
 
       - name: Check package.json version
         run: |
